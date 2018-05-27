@@ -22,32 +22,31 @@ public class AdvertisementReportUtils {
 			switch(month.toLowerCase())
 			{
 				case "jan": mon="January";
-							break;
+				break;
 				case "feb": mon="February";
-							break;
+				break;
 				case "mar": mon="March";
-							break;
+				break;
 				case "apr": mon="April";
-							break;
+				break;
 				case "may": mon="May";
-							break;
+				break;
 				case "jun": mon="June";
-							break;
+				break;
 				case "jul": mon="July";
-							break;
+				break;
 				case "aug": mon="August";
-							break;
+				break;
 				case "sep": mon="September";
-							break;
+				break;
 				case "oct": mon="October";
-							break;
+				break;
 				case "nov": mon="November";
-							break;
+				break;
 				case "dec": mon="December";
-							break;
+				break;
 				default:    mon="Invalid";
-							break;
-							
+				break;			
 			}
 			return mon;
 		}
